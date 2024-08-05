@@ -1,16 +1,9 @@
-import DashBoard from "./components/UserDashboard";
-
+import Allroutes from "./Allroutes/routes";
 function App() {
+  console.log("inn appp");
   return (
     <>
-      <div class="container-fluid ">
-        <div class="row mx-0 py-5">
-          <div class="col-12 px-0">
-            <h1>Dashboard</h1>
-            <DashBoard />
-          </div>
-        </div>
-      </div>
+      <Allroutes />
     </>
   );
 }
